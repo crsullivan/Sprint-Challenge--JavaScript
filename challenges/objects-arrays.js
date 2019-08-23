@@ -36,14 +36,14 @@ console.log(dinos[0].period);
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
 
-const roar = dinos.forEach(function(item){
-  if (item.name === "tyrannosaurus"){
-    return "RAWERSRARARWERSARARARRRR!";
-  }
-  else{
-    return null;
-  }
-});
+const roar = []
+
+dinos.filter(function(items){
+  if(items.name.includes('tyrannosaurus') === true){
+    return roar.push(`RAWERSRARARWERSARARARRRR!`)
+      }
+      
+})
 
 console.log(roar);
 
