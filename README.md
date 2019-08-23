@@ -47,7 +47,7 @@ b. If a function is called upon by dot notation, 'this' is the object before tha
 
 5. Why do we need super() in an extended class?
 
-to call upon (and thus pass down the prooerties of) the parent.
+to call upon (and thus pass down the prooerties of) the parent, to the childs attributes.
 
 
 ## Project Set up
